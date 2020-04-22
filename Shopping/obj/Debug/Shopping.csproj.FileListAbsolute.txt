@@ -1,0 +1,10 @@
+C:\Users\Giang\source\repos\Shopping\Shopping\bin\Debug\Shopping.exe.config
+C:\Users\Giang\source\repos\Shopping\Shopping\bin\Debug\Shopping.exe
+C:\Users\Giang\source\repos\Shopping\Shopping\bin\Debug\Shopping.pdb
+C:\Users\Giang\source\repos\Shopping\Shopping\bin\Debug\ClassLibrary1.dll
+C:\Users\Giang\source\repos\Shopping\Shopping\bin\Debug\ClassLibrary1.pdb
+C:\Users\Giang\source\repos\Shopping\Shopping\obj\Debug\Shopping.csprojAssemblyReference.cache
+C:\Users\Giang\source\repos\Shopping\Shopping\obj\Debug\Shopping.csproj.CoreCompileInputs.cache
+C:\Users\Giang\source\repos\Shopping\Shopping\obj\Debug\Shopping.csproj.CopyComplete
+C:\Users\Giang\source\repos\Shopping\Shopping\obj\Debug\Shopping.exe
+C:\Users\Giang\source\repos\Shopping\Shopping\obj\Debug\Shopping.pdb
