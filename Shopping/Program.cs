@@ -88,21 +88,17 @@ namespace Shopping
         {
             Console.WriteLine("Enter sort direction (asc/desc):");
             var input = Console.ReadLine().ToLower();
-            var sortedList = (dynamic)null;
-            if (input != "asc" && input != "desc")
+
+            if (input == "asc")
+            {
+                Cart.OrderBy(x => x.Price).ToList().ForEach(x => Console.WriteLine(x.ToString()));
+            } else if (input == "desc")
+            {
+                Cart.OrderByDescending(x => x.Price).ToList().ForEach(x => Console.WriteLine(x.ToString()));
+            } else
             {
                 Console.WriteLine("Direction not supported");
                 return;
-            } else if (input == "asc")
-            {
-                sortedList = Cart.OrderBy(x => x.Price);
-            } else
-            {
-                sortedList = Cart.OrderByDescending(x => x.Price);
-            }
-            foreach (Product item in sortedList)
-            {
-                Console.WriteLine(item.ToString());
             }
         }
         static void Main(string[] args)
